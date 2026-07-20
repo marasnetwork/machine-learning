@@ -13,3 +13,24 @@
 - **z** – depth (height) in mm
 
 > The first four columns (carat, cut, color, clarity) are known as the **"4 Cs"** – the main factors that determine a diamond's value.
+
+## Conclusion
+
+### Aproach
+Simple and multiple linear regression were used to predict diamond prices based on physical dimensions 4 Cs (carat, cut, color, clarity). 4 Cs dimensions were ordinal-encoded to preserve their natural ranking (worst -> best).
+
+### Key findings
+- **Non-linearity**: Diamond price does not scale linearly with size. Both price and size was log-log transformed to get linear relationship.
+- **Omitted variable bias**: Using size as one predictor caused high difference between RMSE and MAE. Adding categorical predictors was required action to improve model accuracy.
+- **Data quality**: Rows with zero-valued dimensions (x, y, z = 0) and extreme high-leverage points (size > 1000 mm^3) were removed prior to modeling.
+
+### Final model
+- **Predictors**: log(size), cut_encoded, color_encoded, clarity_encoded
+- **Target**: log(price)
+- **R^2**: 0.977 (train)
+- **Train MAE**: 0.116 (log scale) | **Train RMSE**: 0.154 (log scale)
+- **Test MAE**: 0.115 (log scale) | **Test RMSE**: 0.147 (log scale)
+- Train and test metrics are nearly identical, indicating the model generalizes well and does not overfit.
+
+### Possible next steps
+- Compare against non-linear models (e.g. random forest, gradient boosting) as a benchmark
