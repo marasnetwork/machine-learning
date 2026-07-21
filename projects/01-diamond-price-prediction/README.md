@@ -1,7 +1,7 @@
 # Diamond price prediction model
 ## Dataset source
 - **Link**: https://www.kaggle.com/datasets/shivam2503/diamonds
-- **Version / date of download (DD.MM.YYYY)**: Version 1 / 17.07.2026
+- **Version / date of download (DD.MM.YYYY)**: Version 1 / 17. 07. 2026
 - **Author**: Shivam Agrawal, Danny (Kaggle)
 - **License**: Unknown
 
