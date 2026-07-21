@@ -1,4 +1,9 @@
 # Diamond price prediction model
+## Dataset source
+- **Link**: https://www.kaggle.com/datasets/shivam2503/diamonds
+- **Version / date of download (DD.MM.YYYY)**: Version 1 / 17.07.2026
+- **Author**: Shivam Agrawal, Danny (Kaggle)
+- **License**: Unknown
 
 ## Columns explanation
 - **carat** – the weight of the diamond (1 carat = 0.2 g); larger carat means a bigger stone
