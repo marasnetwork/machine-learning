@@ -13,9 +13,9 @@ A collection of projects and notebooks documenting my work in machine learning a
 
 | Project | Description | Status |
 |---|---|---|
-| 01-linear-regression | Linear regression implemented from scratch (OLS, residual analysis, evaluation metrics) | In progress |
-| 02-polynomial-regression | Polynomial regression from scratch | Planned |
-| 03-logistic-regression | Logistic regression from scratch | Planned |
+| 01-linear-regression | Linear regression implemented from scratch (OLS, residual analysis, evaluation metrics) | Completed |
+| 02-polynomial-regression | Polynomial regression from scratch | Completed |
+| 03-logistic-regression | Logistic regression from scratch | In progress |
 | 04-neural-networks | From intuition and manual implementation to TensorFlow | Planned |
 | 05-unsupervised-learning | Clustering and dimensionality reduction | Planned |
 
